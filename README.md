@@ -1,4 +1,4 @@
-![image](https://github.com/aloksxn/Skin_cancer_case_study/assets/119478319/e376268e-bd91-4732-a35f-b780ed820fdd)# Skin Cancer Detection
+## Skin Cancer Detection
 
 
 ## Background
@@ -12,6 +12,11 @@ CNN training model was used to classify the images into various classes of skin.
 Initial models showed overfit problem which was detected based on the study of Train and Validation Acuuracy as well as Train and Validation Loss
 
 Further various strategies like Augmentation and Class rebalancing were applied to solve the Overfit problem
+
+## Model Evaluation
+![image](https://github.com/aloksxn/Skin_cancer_case_study/assets/119478319/e376268e-bd91-4732-a35f-b780ed820fdd)
+Shows that a low train and validation loss + increasing trend in accuracy. Loss is going towards Minima.
+Further scope to optimise training time using epochs.
 
 ## Result
 The final model was able to predict and hence detect the right skin cancer class with an accuracy of80 %
